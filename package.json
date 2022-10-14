@@ -1,6 +1,6 @@
 {
   "name": "djs-template-gen",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Como usar?",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,9 @@
   "keywords": [],
   "author": "Gandalf",
   "license": "ISC",
+  "bin": {
+    "source-gen": "./index.js"
+  },
   "dependencies": {
     "discord.js": "^14.6.0",
     "fs-extra": "^10.1.0"
