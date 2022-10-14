@@ -1,16 +1,13 @@
-
-
-
-
   const fse = require('fs-extra')
 
-
-  const sourcebase = `./slash`;
-  const sourcedestino = `./src`;
+  const sourcebase = `./node_modules/simplebotdiscord/slash`;
+  const sourcedestino = `./`;
   
-  const sourcebase1 = `./prefix`;
-  const sourcedestino1 = `./src`;
+  const sourcebase1 = `./node_modules/simplebotdiscord/prefix`;
+  const sourcedestino1 = `./`;
                                    
+   // fse.readdir("", console.log)
+
   console.log("Digite o número da base que deseja criar \n1- slash\n2- comandos")
   
   process.stdin.on('data', data => {

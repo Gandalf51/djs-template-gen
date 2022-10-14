@@ -2,9 +2,9 @@ const fs = require("fs")
 
 module.exports = async (client) => {
 
-fs.readdir(`./src/ComandosPrefix/`, (erro, pasta) => {
+fs.readdir(`./ComandosPrefix/`, (erro, pasta) => {
   pasta.forEach(subpasta => {
-fs.readdir(`./src/ComandosPrefix/${subpasta}/`, (erro, arquivos) => {
+fs.readdir(`./ComandosPrefix/${subpasta}/`, (erro, arquivos) => {
   arquivos.forEach(arquivo => {  
   if(!arquivo?.endsWith('.js')) return;
   comando = require(`../ComandosPrefix/${subpasta}/${arquivo}`);
