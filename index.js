@@ -14,7 +14,7 @@
       if(data == 1){
         try {
           fse.copySync(sourcebase, sourcedestino, { overwrite: true|false })
-          console.log('Bot foi enviado para a pasta `src`')
+          console.log('Source gerada')
         } catch (err) {
           console.error(err)
         }
