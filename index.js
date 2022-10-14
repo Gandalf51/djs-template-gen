@@ -8,7 +8,7 @@
                                    
    // fse.readdir("", console.log)
 
-  console.log("Digite o número da base que deseja criar \n1- slash\n2- comandos")
+  console.log("Digite o número da base que deseja criar \n1- slash\n2- prefix")
   
   process.stdin.on('data', data => {
       if(data == 1){
@@ -21,7 +21,7 @@
           process.exit();
       } else if(data == 2){
         fse.copySync(sourcebase1, sourcedestino1, { overwrite: true|false })
-        console.log('Bot foi enviado para a pasta `src`')
+        console.log('Source gerada')
           process.exit();
       } else {
           console.log("Digite apenas os numeros possíveis")
