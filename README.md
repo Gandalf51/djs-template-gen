@@ -17,3 +17,5 @@ npm i discord.js
 ```js
 require('simplebotdiscord')
 ```
+
+- utilize este codigo num arquivo .js e de run
