@@ -1,9 +1,9 @@
   const fse = require('fs-extra')
 
-  const sourcebase = `./node_modules/simplebotdiscordjs/slash`;
+  const sourcebase = `./node_modules/djs-template-gen/slash`;
   const sourcedestino = `./`;
   
-  const sourcebase1 = `./node_modules/simplebotdiscordjs/prefix`;
+  const sourcebase1 = `./node_modules/djs-template-gen/prefix`;
   const sourcedestino1 = `./`;
                                    
    // fse.readdir("", console.log)

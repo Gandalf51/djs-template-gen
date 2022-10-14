@@ -1,21 +1,21 @@
 # Como utilizar?
 
 ```shell
-npm i simplebotdiscord
+npm i djs-template-gen
 ```
 
 ```shell
 npm i discord.js
 ```
 
-- após baixar a package utilize simplebotdiscord no terminal em seguida digite o numero da base que deseja criar
+
 
 - colocar o token do seu bot e o prefixo no arquivo config.json
 
 - instalar a package discord.js
 
 ```js
-require('simplebotdiscord')
+require('djs-template-gen')
 ```
 
 - utilize este codigo num arquivo .js e de run
