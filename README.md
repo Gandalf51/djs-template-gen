@@ -8,14 +8,10 @@ npm i djs-template-gen
 npm i discord.js
 ```
 
+- para utilizar é simples, primeiro passo você deve ter o node js instalado na sua maquina, segundo passo abra o seu terminal e digite 'npm init -y' logo em seguida npm i djs-template-gen, apos ter feito isto vai a sua index/arquivo principal e utilize o seguinte codigo:
 
-
-- colocar o token do seu bot e o prefixo no arquivo config.json
-
-- instalar a package discord.js
 
 ```js
 require('djs-template-gen')
 ```
-
-- utilize este codigo num arquivo .js e de run
+- após ter feito isso de run no seu arquivo principal 
