@@ -25,9 +25,7 @@ client.on('interactionCreate', (interaction) => {
    }
 })
 
-client.on('ready', () => {
-  console.log('O puteiro abriu!!!')
-})
+
 
 
 client.slashCommands = new Discord.Collection()

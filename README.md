@@ -1,17 +1,48 @@
-# Como utilizar?
+<h1 align="center">
+Como usar?
+</h1>
 
-```shell
+# Incide
+
+- [Packages usadas](#packages-usadas)
+- [Como baixar a lib](#como-baixar-a-lib)
+- [Como utilizar](#como-utilizar)
+
+---
+
+## Packages usadas
+
+O projeto necessita necessita das seguintes lib para funcionar:
+
+- [discord.js](https://www.npmjs.com/package/discord.js/v/14.0.0-dev.1645402068.78aa36f)
+- [fs-extra](https://www.npmjs.com/package/fs-extra)
+
+---
+
+## Como baixar a lib 
+
+```bash
+
+# Baixar o package.json
+npm init -y
+
+# Baixar o djs-template-gen
 npm i djs-template-gen
 ```
 
-```shell
-npm i discord.js
-```
+---
 
-- para utilizar é simples, primeiro passo você deve ter o node js instalado na sua maquina, segundo passo abra o seu terminal e digite 'npm init -y' logo em seguida npm i djs-template-gen, apos ter feito isto vai a sua index/arquivo principal e utilize o seguinte codigo:
+## Como utilizar
 
+- No seu arquivo principal utilize o seguinte codigo:
 
 ```js
 require('djs-template-gen')
 ```
-- após ter feito isso de run no seu arquivo principal 
+
+- Após isso de run no arquivo e selecione a base que deseja criar
+
+---
+
+By Gandalf#7866
+

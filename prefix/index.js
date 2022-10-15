@@ -14,9 +14,7 @@ GatewayIntentBits.GuildVoiceStates,
 
 module.exports = client;
 
-client.on('ready', () => {
-  console.log('estou on')
-})
+
 client.on("messageCreate", message =>{
   if(message.author.bot || !message.guild || !message.content.startsWith(config.prefix)) return;
 

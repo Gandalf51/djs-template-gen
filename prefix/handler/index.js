@@ -16,4 +16,14 @@ client.prefixCommands.set(arquivo.replace(/.js/g, ""), comando);
     });
   });
 })
-}
+
+fs.readdir(`./Eventos/`, (erro, pasta) => {
+  pasta.forEach(subpasta => {
+    fs.readdir(`./Eventos/${subpasta}/`, (erro, arquivos) => {
+      arquivos.forEach(arquivo => {
+        if (!arquivo.endsWith('.js')) return; require(`../Eventos/${subpasta}/${arquivo}`);
+      });
+    });
+  });
+});
+};
