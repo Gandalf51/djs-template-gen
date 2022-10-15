@@ -14,7 +14,6 @@ Como usar?
 
 O projeto necessita necessita das seguintes lib para funcionar:
 
-- [discord.js](https://www.npmjs.com/package/discord.js/v/14.0.0-dev.1645402068.78aa36f)
 - [fs-extra](https://www.npmjs.com/package/fs-extra)
 
 ---
