@@ -2,23 +2,21 @@
 Como usar?
 </h1>
 
-# Incide
+# 💭 Incide
 
-- [Packages usadas](#packages-usadas)
-- [Como baixar a lib](#como-baixar-a-lib)
-- [Como utilizar](#como-utilizar)
-
----
-
-## Packages usadas
-
-O projeto necessita necessita das seguintes lib para funcionar:
-
-- [fs-extra](https://www.npmjs.com/package/fs-extra)
+- [Sobre](#❓-sobre)
+- [Como baixar a lib](#🚀-como-baixar-a-lib)
+- [Como utilizar](#🤔-como-utilizar)
 
 ---
 
-## Como baixar a lib 
+## ❓ Sobre
+
+- Basicamente esta lib cria um template de um bot na v14 em slash ou prefixo, foi criada no para ajudar iniciantes.
+
+---
+
+## 🚀 Como baixar a lib 
 
 ```bash
 
@@ -31,7 +29,7 @@ npm i djs-template-gen
 
 ---
 
-## Como utilizar
+## 🤔 Como utilizar
 
 - No seu arquivo principal utilize o seguinte codigo:
 
@@ -39,7 +37,7 @@ npm i djs-template-gen
 require('djs-template-gen')
 ```
 
-- Após isso de run no arquivo e selecione a base que deseja criar
+- Após isso de run no arquivo e selecione a base que deseja criar.
 
 ---
 
