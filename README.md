@@ -23,7 +23,7 @@ const { TemplateGenerator, BaseTypes } = require('djs-template-gen');
 const generator = new TemplateGenerator();
 generator.createBase({
   type: BaseTypes.Slash,
-  templateName: 'my-template'
+  templateName: 'slash'//op
 });
 ```
 
@@ -37,7 +37,7 @@ const { TemplateGenerator, BaseTypes } = require('djs-template-gen');
 const generator = new TemplateGenerator();
 generator.createBase({
   type: BaseTypes.Prefix,
-  templateName: 'Nice lib'
+  templateName: 'prefix'//op
 });
 ```
 
